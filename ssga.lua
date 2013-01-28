@@ -1,6 +1,6 @@
 module("ssga", package.seeall)
 
-math.randomseed (os.time())
+math.randomseed (ngx.now())
 ssga = {}
 
 function ssga.new(ua, domain, options) 
